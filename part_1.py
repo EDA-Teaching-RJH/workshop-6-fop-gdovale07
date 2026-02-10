@@ -15,3 +15,8 @@ for _ in range(3):
     rock = input("enter rock type:")
     new_findings.append(rock)
 print(new_findings)
+
+if "dust" in sample_bay:
+    sample_bay.remove("dust")
+
+print(sample_bay)
